@@ -2,7 +2,6 @@
 #
 # Print a custom greeting for each element
 
-require `pry`
 
 def greet_characters(array)
   array.each do |greet|
@@ -17,7 +16,6 @@ end
   
 def list_dwarves(array)
   array.each_with_index do |item, index|
-    array[item] = index 
-    binding.pry 
+
   end 
 end
